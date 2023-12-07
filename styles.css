@@ -28,7 +28,7 @@ table {
     width: 250px;
 }
 
-tr td {
+ td {
     border: 2px solid rgb(255, 0, 0);
     padding-left: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

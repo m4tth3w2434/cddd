@@ -7,19 +7,36 @@
     <link type="text/css" rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <body>
-      <div class="header"></div>
-        <div class="bg-img">
-          <div class="artist-banner">
-            <div id="verificado">
-              <img src="./assets/img/pngwing.com.png" width="20px" alt="" />
-              <p style="font-size: 8px">Artista verificado</p>
-            </div>
-            <p class="artist-name">Varry Brava</p>
-            <p class="monthly-listeners">184,392 oyentes mensuales</p>
-          </div>
+    <header id="nav">
+      <div class="nav-container">
+        <div class="nav-left">
+          <img src="./assets/img/spotify.png" alt="Spotify" />
+          <ul>
+            <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Premium</a></li>
+            <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Ayuda</a></li>
+            <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Descargar</a></li>
+          </ul>
         </div>
-      <div id="section">
+        <div class="nav-right">
+          <ul>
+            <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Iniciar sesión</a></li>
+            <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Registrarse</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="bg-img">
+        <div class="artist-banner">
+          <div id="verificado">
+            <img src="./assets/img/pngwing.com.png" width="20px" alt="" />
+            <p style="font-size: 8px">Artista verificado</p>
+          </div>
+          <h1 class="artist-name">Varry Brava</h1>
+          <p class="monthly-listeners">184,392 oyentes mensuales</p>
+        </div>
+      </div>
+      <div id="sections">
         <div class="button-container">
           <a
             href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb"
@@ -27,44 +44,178 @@
           >
             <img src="./assets/img/pngwing.com (1).png" alt="Play" />
           </a>
-          <button class="follow-button">Seguir</button>
-          <button class="options-button">...</button>
+          <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb" id="follow-button">Seguir</a>
+          <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb" id="more-button">...</a>
         </div>
-        <div class="song-list">
-          <span>Populares</span>
-          <div class="song">
-            <p>1</p>
-            <img src="./assets/img/Captura de pantalla 2023-12-07 191512.png" width="20px">  
-            <p> Bajo la Luz Perfecta</p>
-            <p>3:33</p>
+        <span style="color: aliceblue; padding-left: 10px; font-size: 14px;">Populares</span>
+        <div id="music">
+          <table id="song-list">
+            <tr class="song">
+              <td>1</td>
+              <td>
+                <img
+                  src="./assets/img/Captura de pantalla 2023-12-07 191512.png"
+                  width="20px"
+                />Bajo la Luz Perfecta
+              </td>
+              <td class="views">2.694.468</td>
+              <td>3:33</td>
+            </tr>
+            <tr class="song">
+              <td>2</td>
+              <td>
+                <img
+                  src="./assets/img/Captura de pantalla 2023-12-07 191549.png"
+                  width="20px"
+                />Raffaella
+              </td>
+              <td class="views">6.657.223</td>
+              <td>3:33</td>
+            </tr>
+            <tr class="song">
+              <td>3</td>
+              <td>
+                <img
+                  src="./assets/img/Captura de pantalla 2023-12-07 191558.png"
+                  width="20px"
+                />No gires
+              </td>
+              <td class="views">10.933.045</td>
+              <td>3:33</td>
+            </tr>
+            <tr class="song">
+              <td>4</td>
+              <td>
+                <img
+                  src="./assets/img/Captura de pantalla 2023-12-07 191607.png"
+                  width="20px"
+                />Tierra para bailar
+              </td>
+              <td class="views">107.945</td>
+              <td>3:33</td>
+            </tr>
+            <tr class="song">
+              <td>5</td>
+              <td><img src="./assets/img/asd.png" width="20px" />Playa</td>
+              <td class="views">5.766.242</td>
+              <td>3:33</td>
+            </tr>
+          </table>
+          <div>
+            <p style="margin-top: -20px; margin-bottom: 10px;";>Seleción del Artista</p>
+            <img style="border-radius: 10px;" src="./assets/img/asdasdasdasdasdadsasdadsads.png" alt="" />
           </div>
-          <div class="song">
-            <p>2</p>
-            <img src="./assets/img/Captura de pantalla 2023-12-07 191549.png" width="20px">
-            <p>Raffaella</p>
-            <p>3:33</p>
+        </div>
+        <p id="seemore" style="color: aliceblue">See more</p>
+      </div>
+      <div>
+      <div style="display: flex; justify-content: space-between;">
+        <h1 style="color: white; margin-left: 10px;">Discografía</h1>
+        <h3 style="color: white; margin-right: 10px;">Mostrar todos</h2>
+      </div>
+        <div id="buttons-disco">
+          <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Titulos populares</a>
+          <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Álbums</a>
+          <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Sencillos y EP</a>
+          <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Recopilatorios</a>
+        </div>
+        <div id="albums">
+          <div class="album">
+            <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">
+            <img src="./assets/img/albuns.jpeg" width="100" alt="" />
+            <p class="titulo">Demasié Medlay</p>
+            <p class="info">Ultimo lanzamiento·Sencillo</p>
+          </a>
           </div>
-          <div class="song">
-            <p>3</p>
-            <img src="./assets/img/Captura de pantalla 2023-12-07 191558.png" width="20px">
-            <p>No gires</p>
-            <p>3:33</p>
+          <div class="album">
+            <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">
+            <img src="./assets/img/albuns.jpeg" width="100" alt="" />
+            <p class="titulo">Demasié Medlay</p>
+            <p class="info">Ultimo lanzamiento·Sencillo</p>
+          </a>
           </div>
-          <div class="song">
-            <p>4</p>
-            <img src="./assets/img/Captura de pantalla 2023-12-07 191607.png" width="20px">
-            <p>Tierra para bailar</p>
-            <p>3:33</p>
+          <div class="album">
+            <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">
+            <img src="./assets/img/albuns.jpeg" width="100" alt="" />
+            <p class="titulo">Demasié Medlay</p>
+            <p class="info">Ultimo lanzamiento·Sencillo</p>
+          </a>
           </div>
-          <div class="song">
-            <p>5</p>
-            <img src="./assets/img/asd.png" width="20px">
-            <p>Playa</p>
-            <p>3:33</p>
-          </div> 
-          <p id="seemore" style="color: aliceblue;">See more</p>
+          <div class="album">
+             <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">
+            <img src="./assets/img/albuns.jpeg" width="100" alt="" />
+            <p class="titulo">Demasié Medlay</p>
+            <p class="info">Ultimo lanzamiento·Sencillo</p>
+          </a>
+          </div>
+          <div class="album">
+            <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">
+            <img src="./assets/img/albuns.jpeg" width="100" alt="" />
+            <p class="titulo">Demasié Medlay</p>
+            <p class="info">Ultimo lanzamiento·Sencillo</p>
+          </a>
+          </div>
+          <div class="album">
+            <a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">
+            <img src="./assets/img/albuns.jpeg" width="100" alt="" />
+            <p class="titulo">Demasié Medlay</p>
+            <p class="info">Ultimo lanzamiento·Sencillo</p>
+          </a>
+          </div>
         </div>
       </div>
-    </body>
+      <div id="informacion-grupo">
+        <div class="contenedor-texto">
+            <h1>Información</h1>
+            <div>
+                <p>
+                    184.216 oyentes mensuales
+                </p>
+                <p>
+                    TXB :)
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+      <div id="separador">
+      <div class="footer-container">
+          <div class="footer-section">
+              <h3>Empresa</h3>
+              <ul>
+                  <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Acerca de</a></li>
+                  <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Empleo</a></li>
+                  <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">For the Record</a></li>
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h3>Comunidades</h3>
+              <ul>
+                  <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Para artistas</a></li>
+                  <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Desarrolladores</a></li>
+                  <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Publicidad</a></li>
+                  <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Inversores</a></li>
+                  <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Proveedores</a></li>
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h3>Enlaces útiles</h3>
+              <ul>
+                  <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">Asistencia</a></li>
+                  <li><a href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb">App gratis</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-icons">
+            <a class="icons" href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb"><img src="./assets/img/icons8-instagram.svg"  alt="Instagram"></a>
+            <a class="icons" href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb"><img src="./assets/img/icons8-twitter.svg" alt="Twitter"></a>
+            <a class="icons" href="https://open.spotify.com/intl-es/artist/6kkQkBRrPcQGUN8g2grxwb"><img src="./assets/img/icons8-facebook-nuevo.svg" alt="Facebook"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+          &copy; 2023 Spotify AB
+      </div>
+   
+  </footer>
   </body>
 </html>
